@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class new_script : MonoBehaviour
 {
+    public CharacterController2D controller;
+
     public Animator animator;
 
     public float spead = Player_Model.Model.Spead;
@@ -18,5 +20,23 @@ public class new_script : MonoBehaviour
         horizontalMove = Input.GetAxisRaw("Horizontal") * spead;
 
         animator.SetFloat("spead", Mathf.Abs(horizontalMove));
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            jump = true;
+            animator.SetBool("isJumping", true);
+        }
+    }
+
+    public void OnLanding()
+    {
+        animator.SetBool("isJumping", false);
+    }
+
+    void FixedUpdate()
+    {
+        // Move our character
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        jump = false;
     }
 }

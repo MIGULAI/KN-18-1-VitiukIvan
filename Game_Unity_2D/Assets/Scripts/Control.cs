@@ -21,5 +21,7 @@ public class Control : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
             rb.AddForce(Vector2.up * 8000);
+
+         
     }
 }
