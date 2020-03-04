@@ -2,17 +2,23 @@
 
 public class Player_Model : MonoBehaviour
 {
-    public class Model
-    {
-        public static string Name { get; set; }
-        public static float Spead { get; set; }
-        public static int Damage { get; set; }
+    private static Player_Model _instance;
 
-        public Model()
+    public float Speed { get; set; }
+    public int JumpImpuls { get; set; }
+
+    private Player_Model()
+    {
+        Speed = 30f;
+        JumpImpuls = 14000;
+    }
+
+    public static Player_Model GetInstance()
+    {
+        if(_instance == null)
         {
-            Name = "player";
-            Spead = 20f;
-            Damage = 0;
+            _instance = new Player_Model();
         }
+        return _instance;
     }
 }

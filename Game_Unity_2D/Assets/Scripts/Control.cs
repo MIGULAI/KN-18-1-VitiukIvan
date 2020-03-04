@@ -10,7 +10,7 @@ public class Control : MonoBehaviour
     private Rigidbody2D rb;
     private CircleCollider2D cc;
     public Animator animator;
-    public float spead = Player_Model.Model.Spead;
+    public float spead = 20f;
     public float horizontalMove = 0f;
     private bool jump = false;
     private bool crouch = false;
@@ -39,7 +39,7 @@ public class Control : MonoBehaviour
         horizontalMove = Input.GetAxisRaw("Horizontal") * spead;
 
         animator.SetFloat("spead", Mathf.Abs(horizontalMove));
-
+ 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             rb.AddForce(Vector2.up * 8000);

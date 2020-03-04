@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Control.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\MenuControl.cs" />
     <Compile Include="Assets\Scripts\Models\Player_Model.cs" />
+    <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Work_space/games/KN-18-1-VitiukIvan/Game_Unity_2D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
