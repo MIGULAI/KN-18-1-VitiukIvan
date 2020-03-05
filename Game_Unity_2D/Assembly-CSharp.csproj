@@ -65,6 +65,8 @@
     <Compile Include="Assets\Scripts\CameMove.cs" />
     <Compile Include="Assets\Scripts\Control.cs" />
     <Compile Include="Assets\Scripts\MenuScripts\MenuControl.cs" />
+    <Compile Include="Assets\Scripts\Models\Dealer_Model.cs" />
+    <Compile Include="Assets\Scripts\Models\Enemy1_Model.cs" />
     <Compile Include="Assets\Scripts\Models\Player_Model.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
