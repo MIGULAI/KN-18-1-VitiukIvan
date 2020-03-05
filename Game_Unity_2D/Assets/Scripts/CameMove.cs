@@ -2,6 +2,8 @@
 
 public class CameMove : MonoBehaviour
 {
+    public float max_x, max_Y;
+    private Camera cam;
     public GameObject player;
     void Update()
     {
