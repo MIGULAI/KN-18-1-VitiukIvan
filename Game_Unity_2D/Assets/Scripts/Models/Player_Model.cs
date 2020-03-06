@@ -11,7 +11,7 @@ public class Player_Model : MonoBehaviour
     private Player_Model()
     {
         Speed = 30f;
-        JumpImpuls = 14000;
+        JumpImpuls = 10000;
         Heals = 100;
     }
 
