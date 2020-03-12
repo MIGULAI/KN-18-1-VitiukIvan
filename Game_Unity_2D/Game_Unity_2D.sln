@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.960
-MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{0D6E3054-D370-3E8E-7ED4-B7F4C3A515AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelsLibrary", "..\ModelsLibrary\ModelsLibrary.csproj", "{18CA5F99-0C66-41A3-ADF8-C5C9644618E8}"
@@ -24,8 +22,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {1F09F6E9-CB39-4FF8-863F-4D329513E919}
 	EndGlobalSection
 EndGlobal

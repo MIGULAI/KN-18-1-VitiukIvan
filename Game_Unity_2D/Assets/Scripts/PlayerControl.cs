@@ -1,9 +1,8 @@
 ﻿using UnityEngine;
-using ModelsLibrary;
 
 public class PlayerControl : MonoBehaviour
 {
-    private PlayerModel Player = ModelsLibrary.
+    private Player_Model Player = Player_Model.GetInstance();
     private float Speed;
     private int JumpImpuls;
     private float moveX;
