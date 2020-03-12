@@ -10,7 +10,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{0D6E3054-D370-3E8E-7ED4-B7F4C3A515AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -70,6 +71,7 @@
     <Compile Include="Assets\Scripts\Models\Enemy1_Model.cs" />
     <Compile Include="Assets\Scripts\Models\Player_Model.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
+    <Compile Include="Class1.cs" />
     <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Work_space/games/KN-18-1-VitiukIvan/Game_Unity_2D/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
